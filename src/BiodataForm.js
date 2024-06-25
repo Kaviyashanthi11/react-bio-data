@@ -146,7 +146,7 @@ const BiodataForm = () => {
               <td colSpan="2"><button type="submit" name="s1">{isEditing ? 'Update' : 'Submit'}
                 </button></td>
                 </tr><tr>
-                  <td> <button type="button" name="s2" onClick={clearFields}>Reset
+                  <td colspan="2"> <button type="button" name="s2" onClick={clearFields}>Reset
                 </button>
                 </td>
             </tr>
